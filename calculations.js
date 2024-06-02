@@ -1,21 +1,18 @@
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y
   return x;
 }
 
 function decreaseBalance(x, y) {
-x = x - y;
-return x;
+return x -= y;
 }
 
 function divideBalanceByAccounts(balance, accNumber) {
-  let average = balance / accNumber;
-  return x;
- }
+  return balance / accNumber;
+   }
 
 function getRestAfterDivision(x, y) {
-  x = x % y;
-  return x;
+    return x %= y;
 }
 
 console.log(increaseBalance(3000, 700));
